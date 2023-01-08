@@ -23,6 +23,8 @@ void hit_player(int card);
 
 int is_player_busted();
 
+int is_dealer_busted();
+
 void final_message();
 
 int random(int min, int max);

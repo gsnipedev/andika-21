@@ -32,6 +32,8 @@ int main(void)
     {
         for(int i = 0; i < random(0, 2); i++)
         {
+            if(is_dealer_busted() == 1) break;
+
             hit_dealer(random(1, 13));
         }
     }
